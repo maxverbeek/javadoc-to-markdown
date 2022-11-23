@@ -9,7 +9,6 @@ inputs:
     description: "Destination directory where markdown files will be placed"
     required: true
     default: "documentation"
-outputs: []
 runs:
   using: "node16"
   main: "index.js"
