@@ -1,7 +1,7 @@
 name: "JavaDoc to Markdown converter"
 description: "Convert doc comments in header files to Markdown"
 inputs:
-  headerifle:
+  headerfile:
     description: "Headerfile that contains the comments"
     required: true
     default: "src/improc.h"
