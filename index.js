@@ -101,5 +101,5 @@ ${paramlist}
 
 const outdir = core.getInput("outdir");
 
-fs.mkdir(outdir);
+fs.mkdirSync(outdir);
 fs.writeFileSync(`${outdir}/documentation.md`, out);
