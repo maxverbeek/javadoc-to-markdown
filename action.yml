@@ -1,0 +1,15 @@
+name: "JavaDoc to Markdown converter"
+description: "Convert doc comments in header files to Markdown"
+inputs:
+  headerifle:
+    description: "Headerfile that contains the comments"
+    required: true
+    default: "src/improc.h"
+  outdir:
+    description: "Destination directory where markdown files will be placed"
+    required: true
+    default: "documentation"
+outputs: []
+runs:
+  using: "node16"
+  main: "index.js"
