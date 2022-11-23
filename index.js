@@ -102,4 +102,4 @@ ${paramlist}
 const outdir = core.getInput("outdir");
 
 fs.mkdirSync(outdir);
-fs.writeFileSync(`${outdir}/documentation.md`, out);
+fs.writeFileSync(`${outdir}/Documentation.md`, out);
